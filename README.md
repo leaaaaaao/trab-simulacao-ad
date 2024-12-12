@@ -1,4 +1,6 @@
 # Relatório
+Gabriel Ferreira Leão - DRE: 122071303
+Raisa Christina Nascimento Gonçalves - DRE: 122062516
 
 ## Implementação
 Para o gerenciamento dos eventos, foi utilizada uma fila de prioridades, implementada com uma heap de mínimo, onde a prioridade é dada pelo momento (em segundos) em que o evento ocorre. As chegadas de jobs constituem um processo de Poisson e são inseridas na fila imediatamente ao início da simulação, já que são independentes de outros eventos.
